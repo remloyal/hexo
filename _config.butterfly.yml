@@ -80,33 +80,33 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: https://tenapi.cn/acg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://api.ixiaowai.cn/api/api.php
+index_img: https://tenapi.cn/acg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://api.ixiaowai.cn/api/api.php
+default_top_img: https://tenapi.cn/acg
 
 # The banner image of archive page
-archive_img: https://api.ixiaowai.cn/api/api.php
+archive_img: https://tenapi.cn/acg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://api.ixiaowai.cn/api/api.php
+tag_img: https://tenapi.cn/acg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://api.ixiaowai.cn/api/api.php
+tag_per_img: https://tenapi.cn/acg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://api.ixiaowai.cn/api/api.php
+category_img: https://tenapi.cn/acg
 
 # The banner image of category page
 # format:
@@ -620,7 +620,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度參數)
@@ -628,16 +628,17 @@ subtitle:
   typeSpeed: 150 # type speed in milliseconds
   backSpeed: 50 # backspacing speed in milliseconds
   # loop (循環打字)
-  loop: true
+  loop: false
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 多看书，多看报；少玩电脑，多睡觉
 
 # Loading Animation (加載動畫)
 preloader:
@@ -647,7 +648,7 @@ preloader:
   # 2. pace (progress bar)
   source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: https://tenapi.cn/acg
 
 # aside (側邊欄)
 # --------------------------------------
